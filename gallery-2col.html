@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Venus | Gallery</title>
+	<!-- include Opensans webfont from google-->
+	
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!--[if IE 8]>
+	<link href="css/IEStyle.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<!--[if IE 9]>
+	<link href="css/IE9Style.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<!-- PrettyPhoto stylesheet -->
+	<link rel="stylesheet" href="css/prettyPhoto.css" />
+	<!-- bouncedown animation -->
+	<link rel="stylesheet" href="css/animate.min.css" />
+	<link rel="stylesheet" href="css/bounceInDown.css" />
+	
+	<!-- Include jQuery -->
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<!-- Include jQuery Easing-->
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<!-- PrettyPhoto -->
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<!-- Include QuicksandJS -->
+	<script type="text/javascript" src="js/jquery.quicksand.js"></script>
+	<!-- Venus jquery script -->
+	<script type="text/javascript" src="js/Vscript.js"></script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+<body>
+
+<!-- loading animation div -->
+<div class="loadingBg">
+	<div class="vLoadingAnimation">
+</div><!-- loadingBg -->
+</div><!-- loading animation div -->
+
+<!-- Main Menu | Logo | Quote | Pagetitle | Breadcrumbs Container -->
+<div id="headerContainer">
+	<div id="mainMenuBg">
+		<!-- First 3 items in the menu -->
+		<ul id="mainMenuLeft" class="dropdown">
+			<li><a href="index.html"><span>Home</span></a></li>
+			<li><a href="about-us.html"><span>About</span></a>
+				<ul>
+					<li class="first"><a href="about-us.html">About Us (Tooltips)</a></li>
+					<li><a href="about-us-sortable.html">About Us (Sortable)</a></li>
+				</ul>
+			</li>
+			<li><a href="services.html"><span>Services</span></a></li>
+		</ul>
+		<div id="venusLogo"><p><span>Venus</span></p></div>
+		<!-- Last 3 items in the menu -->
+		<ul id="mainMenuRight" class="dropdown">
+			<li><a class="active" href="">Pages</a>
+				<ul>
+					<li class="first"><a href="typography.html">Typo & Columns</a></li>
+					<li><a href="blog-single.html">Blog Post</a></li>
+					<li><a href="gallery-2col.html">2 Columns Gallery</a></li>
+					<li><a href="gallery-3col.html">3 Columns Gallery</a></li>
+					<li class="last"><a href="404.html">404 Page</a></li>
+				</ul>
+			</li>
+			<li><a href="blog.html">Blog</a>
+				<ul>
+					<li class="first"><a href="blog-single.html">Blog Post</a></li>
+				</ul>
+			</li>
+			<li><a href="contact-us.html">Contact</a></li>
+		</ul>
+	</div>
+	<div id="QuotePagetitleBreadcrumbsWrapper">
+		<div class="clearfix"></div>
+		 <!-- Pagetitle container -->
+		<div id="QuotePagetitleContainer">
+			<p>Our Gallery</p>
+		</div>
+		<!-- Breadcrumbs container -->
+		<div id="subtitleBreadcrumbsContainer">
+			<div id="breadcrumbsWrapper">
+				<!-- flower ornament left -->
+				<span class="left"></span>
+				<!-- breadcrumbs -->
+				<div class="breadcrumbsContainer">
+					<p class="bcParagraph">You Are Here:</p>
+					<a class="inactive" href="index.html">Home</a>
+					<span><img src="images/breadcrumbsArrowIcon.png" width="8" height="9" alt="arrow" /></span>
+					<a class="inactive" href="#">Pages</a>
+					<span><img src="images/breadcrumbsArrowIcon.png" width="8" height="9" alt="arrow" /></span>
+					<span class="active">Gallery</span>
+				</div>
+				<!-- flower ornament right -->
+				<span class="right"></span>
+			</div>
+		</div>
+	</div><!-- ends QuotePagetitleBreadcrumbsWrapper -->
+</div><!-- ends header container -->
+
+<!-- Gallery Content Container (ID) -->
+<div id="galleryContentContainer">
+		<!-- Sorting Navigation -->
+		<div class="sortNavContainer">
+			<!-- navigation title -->
+			<h4 class="navTitle">Sort Items</h4>
+			<!-- Sort nav items -->
+			<ul class="sortNav">
+				<li class="everything all-projects active"><a href="#">Everything</a></li>
+				<li class="cat-item photos"><a href="#">Photos</a></li>
+				<li class="cat-item videos"><a href="#">Videos</a></li>
+			</ul>
+		</div><!-- Sorting Navigation -->
+		
+		<div class="clearfix"></div>
+		
+		<!-- gallery content container (class) -->
+		<div class="galleryContentContainer">
+			<!-- gallery content wrapper -->
+			<div class="galleryContentWrapper">
+				<!-- separator -->
+				<span class="contentSeparator" style="margin-bottom: 20px;"></span>
+				
+				<!-- Sortable gallery items wrapper -->
+				<div class="sortableGalleryItemsWrapper">
+					<!-- gallery items list -->
+					<ul class="galleryItemsList">
+						
+						<!-- gallery item 1 -->
+						<li data-id="post-1" data-type="photos" class="galleryItemWrapper project post-1">
+							<!-- Image container -->
+							<div class="galleryImageContainer">
+								<!-- Add link here -->
+								<a href="content-images/gallery2col/image1.jpg" rel="prettyPhoto[gallery1]">
+									<!-- thumbnail rollover-->
+									<span class="featuredRollover"></span>
+									<img src="content-images/gallery2col/thumb1.jpg" width="460" height="265" alt="" />
+								</a>
+								
+							</div>
+							
+							<!-- Page Curl -->
+							<div class="imageFlip">
+								<!-- Add link here -->
+								<a href="#"><img alt="Curl image" src="images/pageCurl.png" /></a>
+								<div class="imgBehind"></div>
+								<div class="galleryImageContainerCorner"></div>
+							</div><!-- Page Curl -->
+							
+							<!-- Title, post date and rating -->
+							<div class="galleryTitleWrapper">
+								<!-- gallery title and post date -->
+								<div class="titleBlock">
+									<p class="gTitle"><a href="">Lorem Ipsum Dolor Sit Amet</a></p>
+									<p class="gPostDate">Posted on 15.07.2012</p>
+								</div><!-- gallery title and post date -->
+								<!-- date posted -->
+								<div class="ratingBlock">
+									<a href="#"></a>
+								</div><!-- date posted -->
+							</div><!-- Comments and post date wrap -->
+						</li><!-- gallery item 1 -->
+						
+						<!-- gallery item 2 -->
+						<li data-id="post-2" data-type="videos" class="galleryItemWrapper project post-2">
+							<!-- Image container -->
+							<div class="galleryImageContainer">
+								<!-- Add link here -->
+								<a href="content-images/gallery2col/image2.jpg" rel="prettyPhoto[gallery1]">
+									<!-- thumbnail rollover-->
+									<span class="featuredRollover"></span>
+									<img src="content-images/gallery2col/thumb2.jpg" width="460" height="265" alt="" />
+								</a>
+								
+							</div>
+							
+							<!-- Page Curl -->
+							<div class="imageFlip">
+								<!-- Add link here -->
+								<a href="#"><img alt="Curl image" src="images/pageCurl.png" /></a>
+								<div class="imgBehindVideo"></div>
+								<div class="galleryImageContainerCorner"></div>
+							</div><!-- Page Curl -->
+							
+							<!-- Title, post date and rating -->
+							<div class="galleryTitleWrapper">
+								<!-- gallery title and post date -->
+								<div class="titleBlock">
+									<p class="gTitle"><a href="">Quisque dictum nunc at libero</a></p>
+									<p class="gPostDate">Posted on 22.07.2012</p>
+								</div><!-- gallery title and post date -->
+								<!-- date posted -->
+								<div class="ratingBlock">
+									<a href="#"></a>
+								</div><!-- date posted -->
+							</div><!-- Comments and post date wrap -->
+						</li><!-- gallery item 2 -->
+						
+						<!-- gallery item 3 -->
+						<li data-id="post-3" data-type="videos" class="galleryItemWrapper project post-3">
+							<!-- Image container -->
+							<div class="galleryImageContainer">
+								<!-- Add link here -->
+								<a href="content-images/gallery2col/image3.jpg" rel="prettyPhoto[gallery1]">
+									<!-- thumbnail rollover-->
+									<span class="featuredRollover"></span>
+									<img src="content-images/gallery2col/thumb3.jpg" width="460" height="265" alt="" />
+								</a>
+								
+							</div>
+							
+							<!-- Page Curl -->
+							<div class="imageFlip">
+								<!-- Add link here -->
+								<a href="#"><img alt="Curl image" src="images/pageCurl.png" /></a>
+								<div class="imgBehindVideo"></div>
+								<div class="galleryImageContainerCorner"></div>
+							</div><!-- Page Curl -->
+							
+							<!-- Title, post date and rating -->
+							<div class="galleryTitleWrapper">
+								<!-- gallery title and post date -->
+								<div class="titleBlock">
+									<p class="gTitle"><a href="">Aliquam condimentum vulputate</a></p>
+									<p class="gPostDate">Posted on 25.07.2012</p>
+								</div><!-- gallery title and post date -->
+								<!-- date posted -->
+								<div class="ratingBlock">
+									<a href="#"></a>
+								</div><!-- date posted -->
+							</div><!-- Comments and post date wrap -->
+						</li><!-- gallery item 3 -->
+						
+						<!-- gallery item 4 -->
+						<li data-id="post-4" data-type="photos" class="galleryItemWrapper project post-4">
+							<!-- Image container -->
+							<div class="galleryImageContainer">
+								<!-- Add link here -->
+								<a href="content-images/gallery2col/image4.jpg" rel="prettyPhoto[gallery1]">
+									<!-- thumbnail rollover-->
+									<span class="featuredRollover"></span>
+									<img src="content-images/gallery2col/thumb4.jpg" width="460" height="265" alt="" />
+								</a>
+								
+							</div>
+							
+							<!-- Page Curl -->
+							<div class="imageFlip">
+								<!-- Add link here -->
+								<a href="#"><img alt="Curl image" src="images/pageCurl.png" /></a>
+								<div class="imgBehind"></div>
+								<div class="galleryImageContainerCorner"></div>
+							</div><!-- Page Curl -->
+							
+							<!-- Title, post date and rating -->
+							<div class="galleryTitleWrapper">
+								<!-- gallery title and post date -->
+								<div class="titleBlock">
+									<p class="gTitle"><a href="">Pellentesque habitant morbi</a></p>
+									<p class="gPostDate">Posted on 28.07.2012</p>
+								</div><!-- gallery title and post date -->
+								<!-- date posted -->
+								<div class="ratingBlock">
+									<a href="#"></a>
+								</div><!-- date posted -->
+							</div><!-- Comments and post date wrap -->
+						</li><!-- gallery item 4 -->
+						
+						<!-- gallery item 5 -->
+						<li data-id="post-5" data-type="photos" class="galleryItemWrapper project post-5">
+							<!-- Image container -->
+							<div class="galleryImageContainer">
+								<!-- Add link here -->
+								<a href="content-images/gallery2col/image5.jpg" rel="prettyPhoto[gallery1]">
+									<!-- thumbnail rollover-->
+									<span class="featuredRollover"></span>
+									<img src="content-images/gallery2col/thumb5.jpg" width="460" height="265" alt="" />
+								</a>
+								
+							</div>
+							
+							<!-- Page Curl -->
+							<div class="imageFlip">
+								<!-- Add link here -->
+								<a href="#"><img alt="Curl image" src="images/pageCurl.png" /></a>
+								<div class="imgBehind"></div>
+								<div class="galleryImageContainerCorner"></div>
+							</div><!-- Page Curl -->
+							
+							<!-- Title, post date and rating -->
+							<div class="galleryTitleWrapper">
+								<!-- gallery title and post date -->
+								<div class="titleBlock">
+									<p class="gTitle"><a href="">Vivamus quis nisl a sem</a></p>
+									<p class="gPostDate">Posted on 04.08.2012</p>
+								</div><!-- gallery title and post date -->
+								<!-- date posted -->
+								<div class="ratingBlock">
+									<a href="#"></a>
+								</div><!-- date posted -->
+							</div><!-- Comments and post date wrap -->
+						</li><!-- gallery item 5 -->
+						
+						<!-- gallery item 6 -->
+						<li data-id="post-6" data-type="videos" class="galleryItemWrapper project post-6">
+							<!-- Image container -->
+							<div class="galleryImageContainer">
+								<!-- Add link here -->
+								<a href="content-images/gallery2col/image6.jpg" rel="prettyPhoto[gallery1]">
+									<!-- thumbnail rollover-->
+									<span class="featuredRollover"></span>
+									<img src="content-images/gallery2col/thumb6.jpg" width="460" height="265" alt="" />
+								</a>
+								
+							</div>
+							
+							<!-- Page Curl -->
+							<div class="imageFlip">
+								<!-- Add link here -->
+								<a href="#"><img alt="Curl image" src="images/pageCurl.png" /></a>
+								<div class="imgBehindVideo"></div>
+								<div class="galleryImageContainerCorner"></div>
+							</div><!-- Page Curl -->
+							
+							<!-- Title, post date and rating -->
+							<div class="galleryTitleWrapper">
+								<!-- gallery title and post date -->
+								<div class="titleBlock">
+									<p class="gTitle"><a href="">Nullam tempor vulputate mi quis</a></p>
+									<p class="gPostDate">Posted on 06.08.2012</p>
+								</div><!-- gallery title and post date -->
+								<!-- date posted -->
+								<div class="ratingBlock">
+									<a href="#"></a>
+								</div><!-- date posted -->
+							</div><!-- Comments and post date wrap -->
+						</li><!-- gallery item 6 -->
+						
+					</ul><!-- gallery items list -->
+					
+					<div class="clearfix"></div>
+					<!-- separator -->
+					<span class="contentSeparator" style="margin-top: 0;"></span>
+					
+					<!-- pagination -->
+					<ul id="paginationWrapper">
+						<li><a href="#" class="prev"><img src="images/prevArrowIcon.png" width="10" height="15" alt="previous" /></a></li>
+						<li><a href="#">1</a></li>
+						<li><span class="active">2</span></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li><a href="#" class="next"><img src="images/nextArrowIcon.png" width="10" height="15" alt="previous" /></a></li>
+					</ul><!-- ends pagination -->
+					
+					<!-- separator -->
+					<span class="contentSeparator" style="margin-bottom: 0;"></span>
+					
+				</div><!-- Sortable gallery items wrapper -->
+					
+			</div><!-- gallery content wrapper -->
+		</div><!-- gallery content container (class) -->
+
+	<!-- floral ornaments -->
+	<!-- Image top left -->
+	<span class="floralTopLeftGallery"><img src="images/floral-ornaments/contentTopLeft.png" width="248" height="291" alt="floral ornament" /></span>
+	<!-- Image Bottom Left -->
+	<span class="floralBottomLeft"><img src="images/floral-ornaments/contentBottomLeft.png" width="221" height="128" alt="floral ornament" /></span>
+	<!-- Image Top Right -->
+	<span class="floralTopRightGallery"><img src="images/floral-ornaments/sidebarTopRight.png" width="221" height="128" alt="floral ornament" /></span>
+	<!-- Image Bottom Right -->
+	<span class="floralBottomRight"><img src="images/floral-ornaments/sidebarBottomRight.png" width="248" height="225" alt="floral ornament" /></span>
+</div><!-- Gallery Content Container -->
+
+<div class="clearfix"></div>
+
+<!-- footer wrapper -->
+<div id="footerWrapper">
+	<!-- footer -->
+	<div id="footer">
+		<!-- copyright paragraph -->
+		<p>&copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http://www.moobnn.com">&#x7F51;&#x9875;&#x6A21;&#x677F;</a> - Collect from <a href="http://www.moobnn.com/" target="_blank" title="模板在线">模板在线</a> <a href="http://guantaow.taobao.com" target="_blank">厚朴网络 淘宝店</a></p>
+		<!-- social icons -->
+		<div class="socialIcons">
+			<!-- facebook -->
+			<a class="facebookIcon" href="#"></a>
+			<!-- twitter -->
+			<a class="twitterIcon" href="#"></a>
+			<!-- rss feed -->
+			<a class="rssFeed" href="#"></a>
+		</div>
+	</div><!-- ends footer -->
+</div><!-- ends footer wrapper -->
+
+
+</body>
+</html>

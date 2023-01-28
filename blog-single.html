@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Venus | Blog Post</title>
+	<!-- include Opensans webfont from google-->
+	
+	<!-- Main Stylesheet -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!--[if IE 8]>
+	<link href="css/IEStyle.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<!--[if IE 9]>
+	<link href="css/IE9Style.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<!-- bouncedown animation -->
+	<link rel="stylesheet" href="css/animate.min.css" />
+	<link rel="stylesheet" href="css/bounceInDown.css" />
+
+	<!-- Include jQuery -->
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<!-- Include jQuery Ratings -->
+	<script src="js/jquery.ratings.js"></script>
+	<!-- Initialize jQuert Ratings -->
+	<script src="js/vRatingInit.js"></script>
+	<!-- Venus jquery script -->
+	<script type="text/javascript" src="js/Vscript.js"></script>
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+
+<!-- loading animation div -->
+<div class="loadingBg">
+	<div class="vLoadingAnimation">
+</div><!-- loadingBg -->
+</div><!-- loading animation div -->
+
+<!-- Main Menu | Logo | Quote | Pagetitle | Breadcrumbs Container -->
+<div id="headerContainer">
+	<div id="mainMenuBg">
+		<!-- First 3 items in the menu -->
+		<ul id="mainMenuLeft" class="dropdown">
+			<li><a href="index.html"><span>Home</span></a></li>
+			<li><a href="about-us.html"><span>About</span></a>
+				<ul>
+					<li class="first"><a href="about-us.html">About Us (Tooltips)</a></li>
+					<li><a href="about-us-sortable.html">About Us (Sortable)</a></li>
+				</ul>
+			</li>
+			<li><a href="services.html"><span>Services</span></a></li>
+		</ul>
+		<div id="venusLogo"><p><span>Venus</span></p></div>
+		<!-- Last 3 items in the menu -->
+		<ul id="mainMenuRight" class="dropdown">
+			<li><a href="">Pages</a>
+				<ul>
+					<li class="first"><a href="typography.html">Typo & Columns</a></li>
+					<li><a href="blog-single.html">Blog Post</a></li>
+					<li><a href="gallery-2col.html">2 Columns Gallery</a></li>
+					<li><a href="gallery-3col.html">3 Columns Gallery</a></li>
+					<li class="last"><a href="404.html">404 Page</a></li>
+				</ul>
+			</li>
+			<li><a class="active" href="blog.html">Blog</a>
+				<ul>
+					<li class="first"><a href="blog-single.html">Blog Post</a></li>
+				</ul>
+			</li>
+			<li><a href="contact-us.html">Contact</a></li>
+		</ul>
+	</div>
+	<div id="QuotePagetitleBreadcrumbsWrapper">
+		<div class="clearfix"></div>
+		 <!-- Pagetitle container -->
+		<div id="QuotePagetitleContainer">
+			<p>The Blog</p>
+		</div>
+		<!-- Breadcrumbs container -->
+		<div id="subtitleBreadcrumbsContainer">
+			<div id="breadcrumbsWrapper">
+				<!-- flower ornament left -->
+				<span class="left"></span>
+				<!-- breadcrumbs -->
+				<div class="breadcrumbsContainer">
+					<p class="bcParagraph">You Are Here:</p>
+					<a class="inactive" href="#">Home</a>
+					<span><img src="images/breadcrumbsArrowIcon.png" width="8" height="9" alt="arrow" /></span>
+					<a class="inactive" href="#">Blog</a>
+					<span><img src="images/breadcrumbsArrowIcon.png" width="8" height="9" alt="arrow" /></span>
+					<span class="active">Trend And Fashion Expo 2012</span>
+				</div>
+				<!-- flower ornament right -->
+				<span class="right"></span>
+			</div>
+		</div>
+	</div><!-- ends QuotePagetitleBreadcrumbsWrapper -->
+</div><!-- ends header container -->
+
+<!-- Blog Content Container -->
+<div id="blogPostContentContainer">
+	<!-- Post Date | Category -->
+	<div class="titleContainer">
+		<p class="postMeta">Posted On 08.07.2012  |  <a href="#">Fashion</a> Category </p>
+		<!-- content container -->
+		<div class="contentContainer">
+			<!-- content wrapper -->
+			<div class="blogContentWrapper">
+			
+			<!-- Post 1 | Trend And Fashion Expo 2012 -->
+			<div class="whiteBgPost" style="margin: 10px 10px 0 10px; width: 620px;">
+					<!-- Thumbnail, Comments & Post Date | Onehalf div 1 -->
+					<div class="fullwidth" style="position:relative;">
+							<!-- Post Title -->
+							<div class="blogSinglePostTitle">
+								<p><a href="#">Trend And Fashion Expo 2012</a></p>
+							</div>
+							<!-- sharing icons -->
+							<div class="shareIcons">
+								<a class="twitterShare" href=""></a>
+								<a class="facebookShare" href=""></a>
+							</div>
+							<div class="clearfix"></div>
+							<!-- separator -->
+							<span class="contentSeparator"></span>
+							<!-- Post Rating -->
+							<div class="postRating">
+								<!-- rating result -->
+   								 <div class="ratingResultWrapper"><p>Your Rating: <span id="ratingResult">not set</span></p></div>
+								<!-- rating icons -->
+								<div id="ratingIconsWrapper"></div>
+							</div><!-- Post Rating -->
+							<!-- Posted by Author -->
+							<div class="postAuthor">
+								<span><img src="images/small-icons/femaleSymbol.png" width="12" height="16" alt="icon" /></span><p>Posted by <a href="#">Jane Doe</a></p>
+							</div><!-- Posted by Author -->
+							<!-- Post Comments Count -->
+							<div class="postCommentCount">
+								<span><img src="images/small-icons/commentIcon.png" width="15" height="14" alt="icon" /></span><p><a href="#">15 Comments</a></p>
+							</div><!-- Post Comments Count -->
+							<!-- Post Tags -->
+							<div class="postTags">
+								<span><img src="images/small-icons/tagIcon.png" width="16" height="16" alt="icon" /></span><p><a href="#">Fashion</a>,&nbsp;<a href="#">Trend</a>,&nbsp;<a href="#">Modern</a>,&nbsp;<a href="#">Beauty</a>,&nbsp;<a href="#">Expo</a></p>
+							</div><!-- Post Tags -->
+							<div class="clearfix"></div>
+							
+							<!-- post introduction -->
+							<p class="postIntro">All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary.Making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words combined. And Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions.</p>
+							
+							<!-- Image -->
+							<div class="postImage">
+								<div class="postImageContainer">
+									<!-- Add link here -->
+									<a href="#">
+										<!-- thumbnail rollover-->
+										<span class="featuredRollover"></span>
+										<img src="content-images/slider-images/slide6.jpg" width="620" height="240" alt="image" />
+									</a>
+									
+								</div>
+								<!-- Page Curl -->
+								<div class="imageFlip">
+									<!-- Add link here -->
+									<a href="#"><img alt="Curl image" src="images/pageCurl.png" /></a>
+									<div class="imgBehind"></div>
+									<div class="postImageContainerCorner"></div>
+								</div>
+							</div><!-- Image -->
+							
+							<!-- Related Posts Menu -->
+							<div class="relatedPostsMenu">
+								<div class="RPMContent">
+									<!-- Title -->
+									<h3 class="RPTitle">Related Posts</h3>
+									<!-- separator -->
+									<span class="sidebarSeparator"></span>
+									<!-- Item list starts -->
+									<ul class="RPMItems">
+										<!-- item 1 -->
+										<li><p><a href="#">Lorem  Ipsum Dolor Sit Amet</a></p></li>
+										<!-- item 2 -->
+										<li><p><a href="#">Elipsum Vivamus Sis Etam</a></p></li>
+										<!-- item 3 -->
+										<li><p><a href="#">Curabitur adipiscing lorem</a></p></li>
+										<!-- item 4 -->
+										<li><p><a href="#">Nam accumsan mollis et</a></p></li> 
+										<!-- item 5 -->
+										<li><p><a href="#">Pellentesque luctus ligula</a></p></li>
+									</ul><!-- Item list starts -->
+								</div>
+								<div class="rpmFloralOrnament"></div>
+							</div>
+							
+							<!-- quotes wrapper -->
+							<div class="quoteWrapper">
+							<!-- separator -->
+								<span class="contentSeparatorCurled"></span>							
+								<p class="simpleQuotes">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true.</p>
+								<span class="contentSeparatorCurled"></span>
+							</div>
+							<!-- quotes wrapper -->
+							
+							<div class="clearfix"></div>
+							
+							<p> Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+								<br /><br />The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+							</p>
+							
+							<!-- separator -->
+							<span class="contentSeparator" style="margin-top:20px;"></span>
+					</div><!-- fullwidth div ends -->
+					
+				</div><!-- Post 1 | Trend And Fashion Expo 2012 -->
+				
+				<div class="clearfix"></div>
+					
+				<!-- Comments Wrapper -->
+				<div class="commentsWrapper">
+					<!-- comments title & add comment link -->
+					<div class="commentsTitle">
+						<h4>Comments&nbsp;<span>(15)</span></h4>
+						<a href="" class="addCommentLink">Add comment</a>
+					</div><!-- comments title & add comment link -->
+					
+					<!-- Comment 1 -->
+					<!-- Depth 1 | Parent Comment -->
+					<div class="parentComment">
+						<!-- Author Avatar -->
+						<div class="commentAvatarContainer">
+							<div class="commentAvatarFrame">
+								<div class="commentAvatar">
+								<a href="#">
+									<img src="content-images/profileImages/commentAvatar1.jpg" width="44" height="44" alt="profile image" />
+								</a>
+								</div>
+							</div>
+						</div><!-- Author Avatar -->
+						<!-- Comment Author, Post date and message -->
+						<div class="commentContentContainer">
+							<!-- comment Author -->
+							<p class="commentAuthorTitle">John Doe</p>
+							<!-- posted on -->
+							<p class="commentPostDate">3 Days Ago</p>
+							<div class="clearfix"></div>
+							<!-- separator -->
+							<span class="commentSeparator"></span>
+							<!-- message -->
+							<p class="commentMessage">Very nice. I wish i was there :)<span><a href="#" class="commentReply"></a></span></p>
+						</div>
+					</div><!-- Comment 1 -->
+					
+					<!-- Comment 2 -->
+					<!-- Depth 2 | Child Comment -->
+					<div class="childComment">
+						<!-- Author Avatar -->
+						<div class="commentAvatarContainer">
+							<div class="commentAvatarFrame">
+								<div class="commentAvatar">
+								<a href="#">
+									<img src="content-images/profileImages/commentAvatar2.jpg" width="44" height="44" alt="profile image" />
+								</a>
+								</div>
+							</div>
+						</div><!-- Author Avatar -->
+						<!-- Comment Author, Post date and message -->
+						<div class="childCommentContentContainer">
+							<!-- comment Author -->
+							<p class="commentAuthorTitle">Jane Doe</p>
+							<!-- posted on -->
+							<p class="commentPostDate">3 Days Ago</p>
+							<div class="clearfix"></div>
+							<!-- separator -->
+							<span class="commentSeparator"></span>
+							<!-- message -->
+							<p class="commentMessage">It was so awsome, explosion of creativity! Don’t miss it next time :DD<span><a href="#" class="commentReply"></a></span></p>
+						</div>
+						<div class="childCommentIndicator"></div>
+					</div><!-- Comment 2 -->
+					
+					<!-- Comment 3 -->
+					<!-- Depth 1 | Parent Comment -->
+					<div class="parentComment">
+						<!-- Author Avatar -->
+						<div class="commentAvatarContainer">
+							<div class="commentAvatarFrame">
+								<div class="commentAvatar">
+								<a href="#">
+									<img src="content-images/profileImages/commentAvatar3.jpg" width="44" height="44" alt="profile image" />
+								</a>
+								</div>
+							</div>
+						</div><!-- Author Avatar -->
+						<!-- Comment Author, Post date and message -->
+						<div class="commentContentContainer">
+							<!-- comment Author -->
+							<p class="commentAuthorTitle">John Doe</p>
+							<!-- posted on -->
+							<p class="commentPostDate">3 Days Ago</p>
+							<div class="clearfix"></div>
+							<!-- separator -->
+							<span class="commentSeparator"></span>
+							<!-- message -->
+							<p class="commentMessage">Excellent post. Where can i find the whole gallery ?<span><a href="#" class="commentReply"></a></span></p>
+						</div>
+					</div><!-- Comment 3 -->
+
+					<!-- comments title & add comment link -->
+					<div class="commentForm">
+						<h4>Add Comment</h4>
+						<div class="clearfix"></div>
+						<!-- separator -->
+						<span class="sidebarSeparator" style=" width: 600px; margin-left: 20px;"></span>
+						<!-- Form wrapper -->
+						<div class="commentFormElementsWrapper">
+							<!-- Form -->
+							<form id="commentForm" method="post" action="venus-mail.php" />
+								<!-- input fields floated left -->
+								<div style="float:left;">
+									<p><label>Name<span>*</span></label></p>
+									<input type="text" title="Name Field" class="input1" name="name" />
+									<p><label>Email<span>*</span></label></p>
+									<input type="email" title="E-mail Field" class="input2" name="email_address" required="" />
+								</div>
+								<!-- textfield floated right -->
+								<div style="float:right;">
+									<p><label>Message<span>*</span></label></p>
+									<textarea class="input3" title="Message Field" name="message" required=""></textarea>
+								</div>
+							</form><!-- Form -->
+						</div><!-- Form wrapper -->
+						<div class="commentFormSubmitBtn"><a href="#" class="button red">Submit</a></div>
+					</div><!-- comments title & add comment link -->
+				</div><!-- Comments Wrapper -->
+					
+			</div><!-- content wrapper -->
+			
+			<!-- Sidebar wrapper -->
+			<div class="sidebarWrapper">
+			
+				<!-- Recent Blog Posts Widget -->
+				<div id="latestBpWidget">
+					<h4 class="widgetTitle">Latest From The Blog</h4>
+					<!-- separator -->
+					<span class="sidebarSeparator"></span>
+					<!-- Item list starts -->
+					<ul class="latestBpWidgetItems">
+					
+						<!-- item 1 -->
+						<li>
+							<!-- post thumbnail -->
+							<div class="latestBpWidgetItemThumbFrame">
+								<!-- thumbnail container -->
+								<div class="latestBpWidgetItemThumbContainer">
+									<a href="#">
+										<img src="content-images/latest-blog-posts-widget/thumb1.jpg" width="40" height="40" alt="thumbnail" />
+									</a>
+								</div><!-- thumbnail container -->
+							</div><!-- post thumbnail -->
+							<!-- post title & excerpt -->
+							<div class="latestBpWidgetItemsTitleExcerptWrapper">
+								<h3 class="latestBpWidgetItemTitle"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h3>
+								<p class="latestBpWidgetItemExcerpt">Lorem Ipsum Dolor Sit Amet Avet Sis etam Integer pes Elipsum vivamus ...</p>
+							</div><!-- post title & excerpt -->
+							<!-- curled separator -->
+							<span class="sidebarSeparatorCurled"></span>
+						</li><!-- item 1 -->
+						
+						<!-- item 2 -->
+						<li>
+							<!-- post thumbnail -->
+							<div class="latestBpWidgetItemThumbFrame">
+								<!-- thumbnail container -->
+								<div class="latestBpWidgetItemThumbContainer">
+									<a href="#">
+										<img src="content-images/latest-blog-posts-widget/thumb2.jpg" width="40" height="40" alt="thumbnail" />
+									</a>
+								</div><!-- thumbnail container -->
+							</div><!-- post thumbnail -->
+							<!-- post title & excerpt -->
+							<div class="latestBpWidgetItemsTitleExcerptWrapper">
+								<h3 class="latestBpWidgetItemTitle"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h3>
+								<p class="latestBpWidgetItemExcerpt">Lorem Ipsum Dolor Sit Amet Avet Sis etam Integer pes Elipsum vivamus ...</p>
+							</div><!-- post title & excerpt -->
+							<!-- curled separator -->
+							<span class="sidebarSeparatorCurled"></span>
+						</li><!-- item 2 -->
+						
+						<!-- item 3 -->
+						<li>
+							<!-- post thumbnail -->
+							<div class="latestBpWidgetItemThumbFrame">
+								<!-- thumbnail container -->
+								<div class="latestBpWidgetItemThumbContainer">
+									<a href="#">
+										<img src="content-images/latest-blog-posts-widget/thumb3.jpg" width="40" height="40" alt="thumbnail" />
+									</a>
+								</div><!-- thumbnail container -->
+							</div><!-- post thumbnail -->
+							<!-- post title & excerpt -->
+							<div class="latestBpWidgetItemsTitleExcerptWrapper">
+								<h3 class="latestBpWidgetItemTitle"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h3>
+								<p class="latestBpWidgetItemExcerpt">Lorem Ipsum Dolor Sit Amet Avet Sis etam Integer pes Elipsum vivamus ...</p>
+							</div><!-- post title & excerpt -->
+							<!-- curled separator -->
+							<span class="sidebarSeparatorCurled"></span>
+						</li><!-- item 3 -->
+						
+						<!-- item 4 -->
+						<li>
+							<!-- post thumbnail -->
+							<div class="latestBpWidgetItemThumbFrame">
+								<!-- thumbnail container -->
+								<div class="latestBpWidgetItemThumbContainer">
+									<a href="#">
+										<img src="content-images/latest-blog-posts-widget/thumb4.jpg" width="40" height="40" alt="thumbnail" />
+									</a>
+								</div><!-- thumbnail container -->
+							</div><!-- post thumbnail -->
+							<!-- post title & excerpt -->
+							<div class="latestBpWidgetItemsTitleExcerptWrapper">
+								<h3 class="latestBpWidgetItemTitle"><a href="#">Lorem Ipsum Dolor Sit Amet</a></h3>
+								<p class="latestBpWidgetItemExcerpt">Lorem Ipsum Dolor Sit Amet Avet Sis etam Integer pes Elipsum vivamus ...</p>
+							</div><!-- post title & excerpt -->
+							<!-- curled separator -->
+							<span class="sidebarSeparatorCurled"></span>
+						</li><!-- item 4 -->
+						
+					</ul><!-- Item list ends -->
+				</div><!-- Recent Blog Posts Widget -->
+				
+				<!-- Our Services Widget -->
+				<div id="servicesWidget">
+					<h4 class="widgetTitle">Our Services</h4>
+					<!-- separator -->
+					<span class="sidebarSeparator"></span>
+					<!-- Item list starts -->
+					<ul class="servicesWidgetItems">
+						<!-- item 1 -->
+						<li><p><a href="#">Lorem  Ipsum Dolor Sit Amet</a></p></li>
+						<!-- item 2 -->
+						<li><p><a href="#">Elipsum Vivamus Sis Etam</a></p></li>
+						<!-- item 3 -->
+						<li><p><a href="#">Curabitur adipiscing lorem quis</a></p></li>
+						<!-- item 4 -->
+						<li><p><a href="#">Nam accumsan mollis neque</a></p></li>
+						<!-- item 5 -->
+						<li><p><a href="#">Pellentesque luctus ligula iaculis</a></p></li>
+						<!-- item 6 -->
+						<li><p><a href="#">Suspendisse mollis tortor ege</a></p></li>
+						<!-- item 7 -->
+						<li><p><a href="#">Aliquam tempor auctor nulla</a></p></li>
+						<!-- item 8 -->
+						<li><p><a href="#">Vivamus fermentum massa pharetra</a></p></li>
+						<!-- item 9 -->
+						<li><p><a href="#">Elipsum Vivamus Sis Etam</a></p></li>
+					</ul><!-- Item list starts -->
+				</div><!-- Our Services Widget -->
+				
+				<div class="clearfix"></div>
+				
+				<!-- Twitter Widget -->
+				<div id="latestTweetsWidget">
+					<!-- twitter logo -->
+					<h4><span id="twitterTitle">Twitter</span></h4>
+					<!-- separator -->
+					<span class="sidebarSeparator"></span>
+					
+					<!-- tweet 1 -->
+					<div class="sidebarTweet-first">
+						<!-- twitter user thumbnail -->
+						<div class="twitterAvatar"><a href="#"><img src="content-images/profileImages/twitterProfile1.jpg" width="48" height="48" alt="profile image" /></a></div>
+						<!-- twitter message -->
+						<div class="twitterMessageBubble">
+							<span class="bubbleTriangle"></span>
+							<!-- twitter user name -->
+							<a class="twitterID" href="">Jane Doe&nbsp;<span>@JaneDoe</span></a>
+							<!-- tweet time -->
+							<p class="tweetTime">24min Ago</p><br />
+							<!-- message -->
+							<p class="tweetMessage">Lorem Ipsum Dolor Sit Amet Avet Sis etam Integer pes Elipsum vivamus in amet ...</p>
+						</div><!-- ends twitter message -->
+					</div><!-- ends tweet 1 -->
+					
+					<div class="clearfix"></div>
+					
+					<!-- tweet 2 -->
+					<div class="sidebarTweet">
+						<!-- twitter user thumbnail -->
+						<div class="twitterAvatar"><a href="#"><img src="content-images/profileImages/twitterProfile2.jpg" width="48" height="48" alt="profile image" /></a></div>
+						<!-- twitter message -->
+						<div class="twitterMessageBubble">
+							<span class="bubbleTriangle"></span>
+							<!-- twitter user name -->
+							<a class="twitterID" href="">Jane Doe&nbsp;<span>@JaneDoe</span></a>
+							<!-- tweet time -->
+							<p class="tweetTime">24min Ago</p><br />
+							<!-- message -->
+							<p class="tweetMessage">Lorem Ipsum Dolor Sit Amet Avet Sis etam Integer pes Elipsum vivamus in amet ...</p>
+						</div><!-- ends twitter message -->
+					</div><!-- ends tweet 2 -->
+					
+					<div class="clearfix"></div>
+					
+					<!-- tweet 3 -->
+					<div class="sidebarTweet">
+						<!-- twitter user thumbnail -->
+						<div class="twitterAvatar"><a href="#"><img src="content-images/profileImages/twitterProfile3.jpg" width="48" height="48" alt="profile image" /></a></div>
+						<!-- twitter message -->
+						<div class="twitterMessageBubble">
+							<span class="bubbleTriangle"></span>
+							<!-- twitter user name -->
+							<a class="twitterID" href="">Jane Doe&nbsp;<span>@JaneDoe</span></a>
+							<!-- tweet time -->
+							<p class="tweetTime">24min Ago</p><br />
+							<!-- message -->
+							<p class="tweetMessage">Lorem Ipsum Dolor Sit Amet Avet Sis etam Integer pes Elipsum vivamus in amet ...</p>
+						</div><!-- ends twitter message -->
+					</div><!-- ends tweet 3 -->
+					
+					<div class="clearfix"></div>
+					
+					<!-- tweet 2 -->
+					<div class="sidebarTweet">
+						<!-- twitter user thumbnail -->
+						<div class="twitterAvatar"><a href="#"><img src="content-images/profileImages/twitterProfile2.jpg" width="48" height="48" alt="profile image" /></a></div>
+						<!-- twitter message -->
+						<div class="twitterMessageBubble">
+							<span class="bubbleTriangle"></span>
+							<!-- twitter user name -->
+							<a class="twitterID" href="">Jane Doe&nbsp;<span>@JaneDoe</span></a>
+							<!-- tweet time -->
+							<p class="tweetTime">24min Ago</p><br />
+							<!-- message -->
+							<p class="tweetMessage">Lorem Ipsum Dolor Sit Amet Avet Sis etam Integer pes Elipsum vivamus in amet ...</p>
+						</div><!-- ends twitter message -->
+					</div><!-- ends tweet 2 -->
+					
+				</div><!-- ends Twitter Widget -->
+				
+			</div><!-- ends Sidebar wrapper -->
+		</div><!-- content container -->
+	</div><!-- Title container -->
+	<!-- floral ornaments -->
+	<!-- Image top left -->
+	<span class="floralTopLeft"><img src="images/floral-ornaments/contentTopLeft.png" width="248" height="291" alt="floral ornament" /></span>
+	<!-- Image Bottom Left -->
+	<span class="floralBottomLeft"><img src="images/floral-ornaments/contentBottomLeft.png" width="221" height="128" alt="floral ornament" /></span>
+	<!-- Image Top Right -->
+	<span class="floralTopRight"><img src="images/floral-ornaments/sidebarTopRight.png" width="221" height="128" alt="floral ornament" /></span>
+	<!-- Image Bottom Right -->
+	<span class="floralBottomRight"><img src="images/floral-ornaments/sidebarBottomRight.png" width="248" height="225" alt="floral ornament" /></span>
+</div><!-- Blog Content Container -->
+
+<div class="clearfix"></div>
+
+<!-- footer wrapper -->
+<div id="footerWrapper">
+	<!-- footer -->
+	<div id="footer">
+		<!-- copyright paragraph -->
+		<p>&copy; Copyright &copy; 2013.Company name All rights reserved.<a target="_blank" href="http://www.moobnn.com">&#x7F51;&#x9875;&#x6A21;&#x677F;</a> - Collect from <a href="http://www.moobnn.com/" target="_blank" title="模板在线">模板在线</a> <a href="http://guantaow.taobao.com" target="_blank">厚朴网络 淘宝店</a></p>
+		<!-- social icons -->
+		<div class="socialIcons">
+			<!-- facebook -->
+			<a class="facebookIcon" href="#"></a>
+			<!-- twitter -->
+			<a class="twitterIcon" href="#"></a>
+			<!-- rss feed -->
+			<a class="rssFeed" href="#"></a>
+		</div>
+	</div><!-- ends footer -->
+</div><!-- ends footer wrapper -->
+
+
+</body>
+</html>
